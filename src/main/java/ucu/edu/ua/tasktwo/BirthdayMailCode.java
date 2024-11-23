@@ -1,4 +1,4 @@
-package ucu.edu.ua.task2;
+package ucu.edu.ua.tasktwo;
 
 public class BirthdayMailCode implements MailCode {
     public String generate(Client client) {

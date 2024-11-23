@@ -1,4 +1,4 @@
-package ucu.edu.ua.task1;
+package ucu.edu.ua.taskone;
 
 import java.util.List;
 
@@ -6,9 +6,7 @@ import lombok.Singular;
 import lombok.ToString;
 import lombok.experimental.SuperBuilder;
 
-enum Gender {
-    MALE, FEMALE
-}
+
 
 @SuperBuilder
 @ToString

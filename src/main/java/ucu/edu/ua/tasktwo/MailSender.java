@@ -1,7 +1,13 @@
-package ucu.edu.ua.task2;
+package ucu.edu.ua.tasktwo;
 
-import javax.mail.*;
-import javax.mail.internet.*;
+import javax.mail.Authenticator;
+import javax.mail.Message;
+import javax.mail.MessagingException;
+import javax.mail.PasswordAuthentication;
+import javax.mail.Session;
+import javax.mail.Transport;
+import javax.mail.internet.InternetAddress;
+import javax.mail.internet.MimeMessage;
 import java.util.Properties;
 
 public class MailSender {
@@ -34,8 +40,8 @@ public class MailSender {
             message.setText(mailInfo.generate());
 
             Transport.send(message);
-            System.out.println("Email sent successfully." + 
-                mailInfo.getClient().getEmail());
+            System.out.println("Email sent successfully."
+                + mailInfo.getClient().getEmail());
 
         } catch (MessagingException e) {
             System.out.println("Failed to send email: " + e.getMessage());

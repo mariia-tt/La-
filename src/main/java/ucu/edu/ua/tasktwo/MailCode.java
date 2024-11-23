@@ -1,4 +1,4 @@
-package ucu.edu.ua.task2;
+package ucu.edu.ua.tasktwo;
 
 public interface MailCode {
     String generate(Client client);

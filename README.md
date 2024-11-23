@@ -8,7 +8,7 @@ Implement Client, MailInfo, MailSender qand MailBox classes that will allow you 
 Don't limit yourself to these classes only, use as many classes or interfaces as you consider necessary.
 
 `Client`
-* id (this parameter should be assigned automatically in order from 0);
+* ID (this parameter should be assigned automatically in order from 0);
 * name;  
 * age;
 * sex;

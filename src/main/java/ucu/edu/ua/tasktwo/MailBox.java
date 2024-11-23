@@ -1,4 +1,4 @@
-package ucu.edu.ua.task2;
+package ucu.edu.ua.tasktwo;
 
 import java.util.ArrayList;
 import java.util.List;
