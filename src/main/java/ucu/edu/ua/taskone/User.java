@@ -18,7 +18,8 @@ public class User {
     private double height;
     @Singular private List<String> courses;
 
-    public User(String name, int age, Gender gender, double weight, double height) {
+    public User(String name, int age, Gender gender, double weight,
+     double height) {
         this.name = name;
         this.gender = gender;
         this.age = age;
