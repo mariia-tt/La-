@@ -1,4 +1,4 @@
-# Software Design Patterns Practice
+# Lab_11_OOP
 
 ## Task 1: Builder Pattern Analysis
 Check `User` class. Why this is call bloated? How to resolve this issue with the Builder pattern? Check Lombok `@Builder` annotation. Check Lombok `@Singular` anotation. Check Lombok `@SuperBuilder` annotation. Check compiled code of generated `UserBuilder`.
